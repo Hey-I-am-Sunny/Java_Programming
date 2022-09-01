@@ -1,4 +1,7 @@
+import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
+import java.util.concurrent.Flow.Subscriber;
 
 
 //Question 1 - Calculate the multiplication and addition of two numbers ?
@@ -65,6 +68,7 @@ public class Challenge_Questions {
 
 //Question 4 - Remove the first n characters from a string
 
+/*
 public class Challenge_Questions {
 
     public static void main(String[] args) {
@@ -75,6 +79,36 @@ public class Challenge_Questions {
         Integer The_size = input.nextInt();
 
         System.out.println(The_Sentence.substring(The_size));
+    }    
+}
+*/
+
+//Question 5 - Check if the first and last number in a list is the same 
+/*
+public class Challenge_Questions {
+    public static void main(String[] args) {
+        List<Integer> Numbers_List = Arrays.asList(1,2,3,4,5,2);
+    if (Numbers_List.get(0) == Numbers_List.get(Numbers_List.size()-1)){
+        System.out.println("Its the same");
+        } else {
+        System.out.println("They are not the same");
+        }
+    }    
+}
+*/
+
+//Question 6 - Give the numbers which are divisible by 5 in the given list.
+
+public class Challenge_Questions {
+    public static void main(String[] args) {
+        List<Integer> Numbers_List = Arrays.asList(1,2,3,4,5,2);
+    for(int i = 0 ; i <= Numbers_List.size()-1; i++){
+        if (Numbers_List.get(i) % 5 == 0){
+            System.out.println(Numbers_List.get(i) );
+            } else {
+            System.out.print("");
+            }
+        }
     }    
 }
 
