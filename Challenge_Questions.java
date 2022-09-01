@@ -98,7 +98,7 @@ public class Challenge_Questions {
 */
 
 //Question 6 - Give the numbers which are divisible by 5 in the given list.
-
+/*
 public class Challenge_Questions {
     public static void main(String[] args) {
         List<Integer> Numbers_List = Arrays.asList(1,2,3,4,5,2);
@@ -111,4 +111,20 @@ public class Challenge_Questions {
         }
     }    
 }
+*/
+//Question 7 - How many times did a substring appear in a string ?
 
+
+public class Challenge_Questions {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Hey What is the string ? : -");
+        String The_Sentence = input.nextLine();
+        System.out.println("Hey What is the substring ? : -");
+        String Sub_String2 = input.nextLine();
+
+        if (The )
+    }
+    
+}
