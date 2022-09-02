@@ -2,6 +2,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 import java.util.concurrent.Flow.Subscriber;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 
 //Question 1 - Calculate the multiplication and addition of two numbers ?
@@ -114,7 +116,7 @@ public class Challenge_Questions {
 */
 //Question 7 - How many times did a substring appear in a string ?
 
-
+/*
 public class Challenge_Questions {
 
     public static void main(String[] args) {
@@ -123,8 +125,14 @@ public class Challenge_Questions {
         String The_Sentence = input.nextLine();
         System.out.println("Hey What is the substring ? : -");
         String Sub_String2 = input.nextLine();
+        Pattern p = Pattern.compile(Sub_String2 , Pattern.CASE_INSENSITIVE);
+        Matcher m = p.matcher(The_Sentence);
 
-        if (The )
+        int count = 0;       
+        while (m.find()){
+            count +=1;
+        }
+        System.out.println(count);
     }
-    
 }
+*/
